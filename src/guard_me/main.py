@@ -91,4 +91,10 @@ def menu():
             elif choice >= "4":
                 print("\n\n\t\tPLEASE ENTER A VALID CHOICE NUMBER\n")
                 menu()
-menu()
+
+def main():
+    menu()
+
+
+if __name__=='__main__':
+    main()

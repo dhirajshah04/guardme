@@ -1,0 +1,5 @@
+#!python
+
+if __name__ == '__main__':
+    from guard_me.main import main
+    main()
