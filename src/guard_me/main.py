@@ -2,6 +2,7 @@ import pyperclip
 import pickle
 import sys
 import os
+from getpass import getpass
 
 login = {}
 
@@ -40,10 +41,10 @@ def menu():
                     print("\n\t\tPlease Enter a valid Username\n")
                     username = input("Enter Your username: ").strip()
 
-                password = input("Enter Your Password: ").strip()
+                password = getpass(prompt="Enter Your Password: ").strip()
                 while password == "":
                     print("\n\t\tPleaser Enter a valid Password\n")
-                    password = input("Enter Your Password: ").strip()
+                    password = getpass(prompt="Enter Your Password: ").strip()
 
                 login[username] = password
 

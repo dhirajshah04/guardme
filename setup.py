@@ -9,7 +9,7 @@ classifiers = ['Environment :: Console',
 requirements = [pkg.split('=')[0] for pkg in open('requirements.txt').readlines()]
 
 setup(name='guardme',
-      version='1.0',
+      version='1.0.1',
       description="To save username and password",
       author='Dhiraj Shah',
       author_email='dhiraj.shah04@gmail.com',
